@@ -1,39 +1,35 @@
 const videoshow = require('videoshow')
-var mp3Duration = require('mp3-duration');
+const mp3Duration = require('mp3-duration');
+const shell = require('shelljs');
 const fs = require('fs');
 
-var images = [
-  'https://cdn.glitch.com/312385d8-9433-4670-9143-73640144b7cc%2FDesktop.png?1553029663735',
-]
-var audio = './mixes/1.mp3';
+//CONFIG
+const session = 1;
+const images = [`./slides/${session}.png`];
+const audio = `./mixes/${session}.mp3`;
+const video = `/tmp/${session}.mp4`;
+const outputName = `videos/session${session}.mp4`;
 const options = {
-  fps: 25,
-  loop: 10, // seconds
+  loop: 5, // seconds
   transition: true,
   transitionDuration: 1, // seconds
   videoBitrate: 1024,
-  videoCodec: 'libx264',
   size: '1920x?',
-  audioBitrate: '128k',
-  audioChannels: 2,
-  format: 'mp4',
-  pixelFormat: 'yuv420p'
 }
 
-mp3Duration(audio, function (err, duration) {
-  if (err) return console.log(err.message);
-  // options.loop = duration;
-  console.log(duration);
-
+mp3Duration(audio, function (err, duration) { if (err) return console.log(err.message);
+  options.loop = duration;
+  console.log('Mix Duration:', duration);
+  console.log('Videoshow Starts', new Date().getTime().toLocaleString());
 videoshow(images, options)
-  .save('videos/1.mp4')
-  .on('start', function (command) {
-    console.log('ffmpeg process started:', command)
-  })
-  .on('error', function (err) {
-    console.error('Error:', err)
-  })
+  .save(video)
+  .on('start', function (command) { console.log('FFmpeg start:', new Date().getTime().toLocaleString());})
+  .on('error', function (err) { console.log(`The video didn't build`); })
   .on('end', function (output) {
-    console.log('Video created in:', output);
+    console.log('end:', new Date().getTime().toLocaleString());
+    const result = shell.exec(`ffmpeg -i ${video} -i ${audio} -codec copy -shortest ${outputName}`);
+    if (result.code !== 0) {
+      console.log('Adding audio failed');
+    }
   })
 });
