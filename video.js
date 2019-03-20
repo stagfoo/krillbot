@@ -22,7 +22,8 @@ const options = {
 
 mp3Duration(audio, function (err, duration) {
   if (err) return console.log(err.message);
-  options.loop = duration;
+  // options.loop = duration;
+  console.log(duration);
 
 videoshow(images, options)
   .save('videos/1.mp4')
