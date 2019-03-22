@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 clips
 mixes
+videos
+temp
+tmp
 # Runtime data
 pids
 *.pid
