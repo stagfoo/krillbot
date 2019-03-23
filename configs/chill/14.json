@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/14.png",
+          "caption": "Chill - Artist of the Fortnight",
+          "loop": 72.036
+        }
+      ],
+      "video": "./vids/chill/14.mp4",
+      "audio": "./songs/chill/14.mp3"
+    }
+  ]
+}

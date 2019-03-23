@@ -16,14 +16,6 @@ const genres = [
 
 ]
 
-// {
-//   name:'vaporwave',
-//   songs: 0,
-// },
-// {
-//   name:'ambient',
-//   songs: 0,
-// }
 
 genres.map(genre => {
   const tracks = require(`./songs/${genre.name}/tracks.js`);

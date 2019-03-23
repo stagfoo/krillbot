@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/25.png",
+          "caption": "Chill - klrr",
+          "loop": 17.37142857142857
+        }
+      ],
+      "video": "./vids/chill/25.mp4",
+      "audio": "./songs/chill/25.mp3"
+    }
+  ]
+}

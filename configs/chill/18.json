@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/18.png",
+          "caption": "Chill - Pirate Pete",
+          "loop": 175.17714285714285
+        }
+      ],
+      "video": "./vids/chill/18.mp4",
+      "audio": "./songs/chill/18.mp3"
+    }
+  ]
+}

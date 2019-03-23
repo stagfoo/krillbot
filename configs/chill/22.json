@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/22.png",
+          "caption": "Chill - LoudTech",
+          "loop": 217.2865306122449
+        }
+      ],
+      "video": "./vids/chill/22.mp4",
+      "audio": "./songs/chill/22.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/7.png",
+          "caption": "Chill - Korgluva",
+          "loop": 184.55510204081634
+        }
+      ],
+      "video": "./vids/chill/7.mp4",
+      "audio": "./songs/chill/7.mp3"
+    }
+  ]
+}

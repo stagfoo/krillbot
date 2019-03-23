@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/21.png",
+          "caption": "Chill - KurtBeatz'",
+          "loop": 98.71673469387756
+        }
+      ],
+      "video": "./vids/chill/21.mp4",
+      "audio": "./songs/chill/21.mp3"
+    }
+  ]
+}

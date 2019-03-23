@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/23.png",
+          "caption": "Chill - hungastryke",
+          "loop": 117.00244897959183
+        }
+      ],
+      "video": "./vids/chill/23.mp4",
+      "audio": "./songs/chill/23.mp3"
+    }
+  ]
+}

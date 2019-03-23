@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/11.png",
+          "caption": "Chill - D.I.M",
+          "loop": 47.542857142857144
+        }
+      ],
+      "video": "./vids/chill/11.mp4",
+      "audio": "./songs/chill/11.mp3"
+    }
+  ]
+}

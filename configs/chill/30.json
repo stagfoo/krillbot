@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/30.png",
+          "caption": "Chill Day - LAKEY INSPIRED",
+          "loop": 186.09632653061223
+        }
+      ],
+      "video": "./vids/chill/30.mp4",
+      "audio": "./songs/chill/30.mp3"
+    }
+  ]
+}

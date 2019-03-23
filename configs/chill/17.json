@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/17.png",
+          "caption": "Chill - XXJØRDAN",
+          "loop": 150.17795918367347
+        }
+      ],
+      "video": "./vids/chill/17.mp4",
+      "audio": "./songs/chill/17.mp3"
+    }
+  ]
+}

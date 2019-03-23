@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/6.png",
+          "caption": "Chill - mokiat",
+          "loop": 145.71102040816328
+        }
+      ],
+      "video": "./vids/chill/6.mp4",
+      "audio": "./songs/chill/6.mp3"
+    }
+  ]
+}

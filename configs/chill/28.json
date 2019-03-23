@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/28.png",
+          "caption": "Chill - D.Brown",
+          "loop": 206.81142857142856
+        }
+      ],
+      "video": "./vids/chill/28.mp4",
+      "audio": "./songs/chill/28.mp3"
+    }
+  ]
+}

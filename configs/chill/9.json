@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/9.png",
+          "caption": "Chill - REPE_T",
+          "loop": 181.08081632653062
+        }
+      ],
+      "video": "./vids/chill/9.mp4",
+      "audio": "./songs/chill/9.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/3.png",
+          "caption": "chill - chilliestpoet",
+          "loop": 143.6734693877551
+        }
+      ],
+      "video": "./vids/chill/3.mp4",
+      "audio": "./songs/chill/3.mp3"
+    }
+  ]
+}

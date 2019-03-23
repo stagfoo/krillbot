@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/10.png",
+          "caption": "Chill - Red Steel",
+          "loop": 256.05224489795916
+        }
+      ],
+      "video": "./vids/chill/10.mp4",
+      "audio": "./songs/chill/10.mp3"
+    }
+  ]
+}

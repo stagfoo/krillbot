@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/8.png",
+          "caption": "Chill - athenswill2",
+          "loop": 259.8138775510204
+        }
+      ],
+      "video": "./vids/chill/8.mp4",
+      "audio": "./songs/chill/8.mp3"
+    }
+  ]
+}

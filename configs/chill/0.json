@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/0.png",
+          "caption": "chill - ＦＬＸＸＳＣＨＸＲ",
+          "loop": 130.97795918367348
+        }
+      ],
+      "video": "./vids/chill/0.mp4",
+      "audio": "./songs/chill/0.mp3"
+    }
+  ]
+}

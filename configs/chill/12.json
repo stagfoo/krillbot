@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/12.png",
+          "caption": "Chill - maxno",
+          "loop": 188.89142857142858
+        }
+      ],
+      "video": "./vids/chill/12.mp4",
+      "audio": "./songs/chill/12.mp3"
+    }
+  ]
+}

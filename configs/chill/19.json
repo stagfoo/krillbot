@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/19.png",
+          "caption": "Chill - dj fuegs",
+          "loop": 170.03102040816327
+        }
+      ],
+      "video": "./vids/chill/19.mp4",
+      "audio": "./songs/chill/19.mp3"
+    }
+  ]
+}

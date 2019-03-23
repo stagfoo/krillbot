@@ -3,50 +3,48 @@ const mp3Duration = require('mp3-duration');
 const shell = require('shelljs');
 const fs = require('fs');
 const ffmetadata = require("ffmetadata");
+const debug = true;
+const session = require('./configs/chill/0.json');
 
-const debug = false;
-const session = 2;
 
-const config = {
-  images: [
-    {
-    path:`./slides/${session}.png`
-  }],
-  audio:  `./mixes/chillsession${session}.mp3`,
-  video:  `/tmp/${session}.mp4`,
-  outputName: `videos/new-session1${session}.mp4`,
+const videoConfig = {
+  images: session.config[0].images,
+  audio:  session.config[0].audio,
+  video:  `/tmp/${Date.now()}.mp4`,
+  outputName: session.config[0].video,
   options: {
-    transition: true,
-    transitionDuration: 1, // seconds
     videoBitrate: 1024,
     size: '1920x?',
+    captionDelay: 350,
+    transition: false,
+    subtitleStyle: {
+      Fontname: 'chappa',
+      Fontsize: '32',
+      PrimaryColour: '0xFFFFFF',
+      Bold: '2',
+      Italic: '0',
+      BorderStyle: '0',
+      Outline: '2',
+      Shadow: '0',
+      Alignment: '3', // left, middle, right
+      MarginL: '40',
+      MarginR: '60',
+      MarginV: '40'
+    }
   }
 }
-
-mp3Duration(config.audio, function (err, duration) { if (err) return console.log(err.message);
-  //TIMING
   if(debug){
-    config.options.loop = 20;
-  } else {
-    config.options.loop = duration;
+    videoConfig.images[0].loop = 5;
   }
-  //
-  ffmetadata.read(config.audio, function(err, data) {
-    if (err) console.error("Error reading metadata", err);
-    else console.log(data);
-  });
 
-  console.log('Mix Duration:', duration);
-  console.log('Videoshow Starts', new Date().getTime().toLocaleString());
-  videoshow(config.images, config.options)
-   .save(config.video)
+  videoshow(videoConfig.images, videoConfig.options)
+   .save(videoConfig.video)
     .on('start', function (command) { console.log('FFmpeg start:', new Date().getTime().toLocaleString());})
-    .on('error', function (err) { console.log(`The video didn't build`); })
+    .on('error', function (err) { console.log(`The video didn't build`); console.log(err) })
     .on('end', function (output) {
       console.log('end:', new Date().getTime().toLocaleString());
-      const result = shell.exec(`ffmpeg -i ${config.video} -i ${config.audio} -codec copy -shortest ${config.outputName}`);
+      const result = shell.exec(`ffmpeg -i ${videoConfig.video} -i ${videoConfig.audio} -codec copy -shortest ${videoConfig.outputName}`);
       if (result.code !== 0) {
         console.log('Adding audio failed');
       }
     })
-});

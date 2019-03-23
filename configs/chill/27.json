@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/27.png",
+          "caption": "Chill - DirtyKOko",
+          "loop": 154.33142857142857
+        }
+      ],
+      "video": "./vids/chill/27.mp4",
+      "audio": "./songs/chill/27.mp3"
+    }
+  ]
+}

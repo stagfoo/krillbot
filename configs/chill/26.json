@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/26.png",
+          "caption": "Chill - RafaFentanes",
+          "loop": 120.08489795918368
+        }
+      ],
+      "video": "./vids/chill/26.mp4",
+      "audio": "./songs/chill/26.mp3"
+    }
+  ]
+}

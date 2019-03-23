@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/13.png",
+          "caption": "Chill - Phantrensa the Wicked",
+          "loop": 52.950204081632656
+        }
+      ],
+      "video": "./vids/chill/13.mp4",
+      "audio": "./songs/chill/13.mp3"
+    }
+  ]
+}

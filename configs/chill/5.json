@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/5.png",
+          "caption": "cHiLL - Ari Aung Linn",
+          "loop": 217.9918367346939
+        }
+      ],
+      "video": "./vids/chill/5.mp4",
+      "audio": "./songs/chill/5.mp3"
+    }
+  ]
+}

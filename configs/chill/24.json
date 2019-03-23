@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/24.png",
+          "caption": "Chill - Mass Lardage",
+          "loop": 178.31183673469388
+        }
+      ],
+      "video": "./vids/chill/24.mp4",
+      "audio": "./songs/chill/24.mp3"
+    }
+  ]
+}

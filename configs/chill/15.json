@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/15.png",
+          "caption": "Chill - Lo'vae TMG4L",
+          "loop": 233.95265306122448
+        }
+      ],
+      "video": "./vids/chill/15.mp4",
+      "audio": "./songs/chill/15.mp3"
+    }
+  ]
+}

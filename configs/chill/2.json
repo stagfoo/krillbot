@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/2.png",
+          "caption": "chill - TTR",
+          "loop": 278.0473469387755
+        }
+      ],
+      "video": "./vids/chill/2.mp4",
+      "audio": "./songs/chill/2.mp3"
+    }
+  ]
+}

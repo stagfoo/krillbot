@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/16.png",
+          "caption": "Chill - COSMIC",
+          "loop": 194.03755102040816
+        }
+      ],
+      "video": "./vids/chill/16.mp4",
+      "audio": "./songs/chill/16.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/chill/20.png",
+          "caption": "Chill - DR. X",
+          "loop": 183.3012244897959
+        }
+      ],
+      "video": "./vids/chill/20.mp4",
+      "audio": "./songs/chill/20.mp3"
+    }
+  ]
+}
