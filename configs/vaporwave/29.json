@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/29.png",
+          "caption": "Vaporwave - red_sn0w (formerly Izder456)",
+          "loop": 51.27836734693877
+        }
+      ],
+      "video": "./vids/vaporwave/29.mp4",
+      "audio": "./songs/vaporwave/29.mp3"
+    }
+  ]
+}

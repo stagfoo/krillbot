@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/11.png",
+          "caption": "A Challagundlaer's Accidental Vaporwave Mashup - Monster Armstrong",
+          "loop": 48.48326530612245
+        }
+      ],
+      "video": "./vids/vaporwave/11.mp4",
+      "audio": "./songs/vaporwave/11.mp3"
+    }
+  ]
+}

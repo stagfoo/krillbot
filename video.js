@@ -3,8 +3,15 @@ const mp3Duration = require('mp3-duration');
 const shell = require('shelljs');
 const fs = require('fs');
 const ffmetadata = require("ffmetadata");
-const debug = true;
-const session = require('./configs/chill/0.json');
+const log = require('fancy-log');
+
+const debug = process.argv[3] === '-d' ? true : false;
+if(process.argv[2].length === 0){
+  console.log('No config given');
+  return;
+}
+console.log(process.argv);
+const session = require(process.argv[2]);
 
 
 const videoConfig = {
@@ -15,16 +22,19 @@ const videoConfig = {
   options: {
     videoBitrate: 1024,
     size: '1920x?',
-    captionDelay: 350,
+    captionDelay: 0,
+    captionStart: 0,
+    transitionDuration: 0,
     transition: false,
     subtitleStyle: {
       Fontname: 'chappa',
       Fontsize: '32',
       PrimaryColour: '0xFFFFFF',
+      BackColour: "0xFF1A3B",
       Bold: '2',
       Italic: '0',
       BorderStyle: '0',
-      Outline: '2',
+      Outline: '0',
       Shadow: '0',
       Alignment: '3', // left, middle, right
       MarginL: '40',
@@ -33,18 +43,17 @@ const videoConfig = {
     }
   }
 }
-  if(debug){
-    videoConfig.images[0].loop = 5;
-  }
+  if(debug){  videoConfig.images[0].loop = 5; }
 
   videoshow(videoConfig.images, videoConfig.options)
    .save(videoConfig.video)
-    .on('start', function (command) { console.log('FFmpeg start:', new Date().getTime().toLocaleString());})
-    .on('error', function (err) { console.log(`The video didn't build`); console.log(err) })
+    .on('start', function (command) { log('FFmpeg start');})
+    .on('error', function (err) { log(`The video didn't build`); log(err) })
     .on('end', function (output) {
-      console.log('end:', new Date().getTime().toLocaleString());
+      log('FFmpeg Finished');
       const result = shell.exec(`ffmpeg -i ${videoConfig.video} -i ${videoConfig.audio} -codec copy -shortest ${videoConfig.outputName}`);
       if (result.code !== 0) {
-        console.log('Adding audio failed');
+        log('Adding audio failed');
       }
     })
+

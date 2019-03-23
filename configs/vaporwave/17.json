@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/17.png",
+          "caption": "my songs sound too similar - Vaporwave Gal",
+          "loop": 90.33142857142857
+        }
+      ],
+      "video": "./vids/vaporwave/17.mp4",
+      "audio": "./songs/vaporwave/17.mp3"
+    }
+  ]
+}

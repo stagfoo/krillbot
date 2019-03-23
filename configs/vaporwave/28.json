@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/28.png",
+          "caption": "Am I vaporwave yet? - rrika",
+          "loop": 22.099591836734692
+        }
+      ],
+      "video": "./vids/vaporwave/28.mp4",
+      "audio": "./songs/vaporwave/28.mp3"
+    }
+  ]
+}

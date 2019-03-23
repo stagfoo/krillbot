@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/6.png",
+          "caption": "Shitty Vaporwave Remix of Soft Melody - Bugs",
+          "loop": 306.9126530612245
+        }
+      ],
+      "video": "./vids/vaporwave/6.mp4",
+      "audio": "./songs/vaporwave/6.mp3"
+    }
+  ]
+}

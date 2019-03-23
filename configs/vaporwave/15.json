@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/15.png",
+          "caption": "100ºC [disquiet0100-vaporwave] - BASSLINGss",
+          "loop": 172.04244897959182
+        }
+      ],
+      "video": "./vids/vaporwave/15.mp4",
+      "audio": "./songs/vaporwave/15.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/30.png",
+          "caption": "Im in love with a rabbit - Vaporwave Gal",
+          "loop": 85.1069387755102
+        }
+      ],
+      "video": "./vids/vaporwave/30.mp4",
+      "audio": "./songs/vaporwave/30.mp3"
+    }
+  ]
+}

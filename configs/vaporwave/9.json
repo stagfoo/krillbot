@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/9.png",
+          "caption": "Single - Vaporwave",
+          "loop": 128.23510204081632
+        }
+      ],
+      "video": "./vids/vaporwave/9.mp4",
+      "audio": "./songs/vaporwave/9.mp3"
+    }
+  ]
+}

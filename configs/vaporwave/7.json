@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/7.png",
+          "caption": "Is this Vaporwave? [Snippet] - Highroller",
+          "loop": 166.0604081632653
+        }
+      ],
+      "video": "./vids/vaporwave/7.mp4",
+      "audio": "./songs/vaporwave/7.mp3"
+    }
+  ]
+}

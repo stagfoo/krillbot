@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/8.png",
+          "caption": "VAPORWAVE LIVE - CrocoDylan",
+          "loop": 182.83102040816325
+        }
+      ],
+      "video": "./vids/vaporwave/8.mp4",
+      "audio": "./songs/vaporwave/8.mp3"
+    }
+  ]
+}

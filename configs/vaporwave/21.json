@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/21.png",
+          "caption": "you wanna go rave or somethin - Vaporwave Gal",
+          "loop": 96.02612244897959
+        }
+      ],
+      "video": "./vids/vaporwave/21.mp4",
+      "audio": "./songs/vaporwave/21.mp3"
+    }
+  ]
+}

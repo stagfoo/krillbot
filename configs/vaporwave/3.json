@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/3.png",
+          "caption": "VHS [tape] - [ocean jams]",
+          "loop": 744.9077551020408
+        }
+      ],
+      "video": "./vids/vaporwave/3.mp4",
+      "audio": "./songs/vaporwave/3.mp3"
+    }
+  ]
+}

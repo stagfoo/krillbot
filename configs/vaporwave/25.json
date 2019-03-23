@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/25.png",
+          "caption": "B4_-_USB_64_-_SAME_DREAM_EVERY_DAY (EXYU VAPORWAVE STANDARD) - kontingenciJA",
+          "loop": 640.6791836734694
+        }
+      ],
+      "video": "./vids/vaporwave/25.mp4",
+      "audio": "./songs/vaporwave/25.mp3"
+    }
+  ]
+}

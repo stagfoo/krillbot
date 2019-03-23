@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/26.png",
+          "caption": "Ｖａｐｏｒｗａｖｅ - ZaytheProducer",
+          "loop": 122.04408163265306
+        }
+      ],
+      "video": "./vids/vaporwave/26.mp4",
+      "audio": "./songs/vaporwave/26.mp3"
+    }
+  ]
+}

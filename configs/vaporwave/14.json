@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/14.png",
+          "caption": "Get got vaporwave - GetGot",
+          "loop": 92.36897959183673
+        }
+      ],
+      "video": "./vids/vaporwave/14.mp4",
+      "audio": "./songs/vaporwave/14.mp3"
+    }
+  ]
+}

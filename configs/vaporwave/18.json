@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/18.png",
+          "caption": "When You Sleep (vaporwave remix?) - My Bloody Valentine",
+          "loop": 385.28
+        }
+      ],
+      "video": "./vids/vaporwave/18.mp4",
+      "audio": "./songs/vaporwave/18.mp3"
+    }
+  ]
+}

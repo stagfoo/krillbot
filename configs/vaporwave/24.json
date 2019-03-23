@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/24.png",
+          "caption": "How many stars have died? - Vaporwave Gal",
+          "loop": 122.82775510204081
+        }
+      ],
+      "video": "./vids/vaporwave/24.mp4",
+      "audio": "./songs/vaporwave/24.mp3"
+    }
+  ]
+}
