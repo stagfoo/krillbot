@@ -10,7 +10,6 @@ if(process.argv[2].length === 0){
   console.log('No config given');
   return;
 }
-console.log(process.argv);
 const session = require(process.argv[2]);
 
 
@@ -36,10 +35,10 @@ const videoConfig = {
       BorderStyle: '0',
       Outline: '0',
       Shadow: '0',
-      Alignment: '3', // left, middle, right
+      Alignment: '2', // left, middle, right
       MarginL: '40',
       MarginR: '60',
-      MarginV: '40'
+      MarginV: '20'
     }
   }
 }
