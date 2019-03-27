@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/18.png",
+          "caption": "Relaxing - kavkar",
+          "loop": 3852.7738775510206
+        }
+      ],
+      "video": "./vids/study/18.mp4",
+      "audio": "./songs/study/18.mp3"
+    }
+  ]
+}

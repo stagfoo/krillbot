@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/0.png",
+          "caption": "[9.22.16]  sayonara - [ocean jams]",
+          "loop": 173.79265306122448
+        }
+      ],
+      "video": "./vids/study/0.mp4",
+      "audio": "./songs/study/0.mp3"
+    }
+  ]
+}

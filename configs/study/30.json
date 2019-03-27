@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/30.png",
+          "caption": "Yes, We're Looking At The Same Star - Poolz",
+          "loop": 375.432
+        }
+      ],
+      "video": "./vids/study/30.mp4",
+      "audio": "./songs/study/30.mp3"
+    }
+  ]
+}

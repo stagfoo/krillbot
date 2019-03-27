@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/14.png",
+          "caption": "Midnight Stroll [Relaxing Study Music] - Ghostrifter Official",
+          "loop": 209.71102040816328
+        }
+      ],
+      "video": "./vids/study/14.mp4",
+      "audio": "./songs/study/14.mp3"
+    }
+  ]
+}

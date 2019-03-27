@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/20.png",
+          "caption": "relaxing/chillstep/piano/liquid mix - emily9574",
+          "loop": 951.0922448979592
+        }
+      ],
+      "video": "./vids/study/20.mp4",
+      "audio": "./songs/study/20.mp3"
+    }
+  ]
+}

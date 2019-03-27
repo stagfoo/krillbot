@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/19.png",
+          "caption": "#BEAT BY# - RELAXING",
+          "loop": 45.40081632653061
+        }
+      ],
+      "video": "./vids/study/19.mp4",
+      "audio": "./songs/study/19.mp3"
+    }
+  ]
+}

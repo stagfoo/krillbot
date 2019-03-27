@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/8.png",
+          "caption": "Dreams | Relaxing Instrumental - sethey5",
+          "loop": 208.3526530612245
+        }
+      ],
+      "video": "./vids/study/8.mp4",
+      "audio": "./songs/study/8.mp3"
+    }
+  ]
+}

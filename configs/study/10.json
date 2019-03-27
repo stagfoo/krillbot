@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/10.png",
+          "caption": "Hot Coffee☕ [Relaxing Study Music] - Ghostrifter Official",
+          "loop": 139.04979591836735
+        }
+      ],
+      "video": "./vids/study/10.mp4",
+      "audio": "./songs/study/10.mp3"
+    }
+  ]
+}

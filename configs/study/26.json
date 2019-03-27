@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/26.png",
+          "caption": "Study - Zen",
+          "loop": 113.29306122448979
+        }
+      ],
+      "video": "./vids/study/26.mp4",
+      "audio": "./songs/study/26.mp3"
+    }
+  ]
+}

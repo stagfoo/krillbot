@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/29.png",
+          "caption": "Victory (Relaxing & Uplifting Chill Hip-hop/Rap Beat) - PlutoTracks",
+          "loop": 246.9877551020408
+        }
+      ],
+      "video": "./vids/study/29.mp4",
+      "audio": "./songs/study/29.mp3"
+    }
+  ]
+}

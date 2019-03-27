@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/28.png",
+          "caption": "Time Leap - ALISA",
+          "loop": 262.84408163265306
+        }
+      ],
+      "video": "./vids/study/28.mp4",
+      "audio": "./songs/study/28.mp3"
+    }
+  ]
+}

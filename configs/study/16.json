@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/16.png",
+          "caption": "Miracle (FREE) - Rameses B",
+          "loop": 300.0424489795918
+        }
+      ],
+      "video": "./vids/study/16.mp4",
+      "audio": "./songs/study/16.mp3"
+    }
+  ]
+}

@@ -45,8 +45,9 @@ function handleMetaData(metadata, configFile, paths){
     images: [
       {
       path: paths.slide,
-      caption: `${metadata.common.title} - ${metadata.common.albumartist}`,
-      loop: metadata.format.duration
+      //remove titles like roylity free or such
+      caption: `${metadata.common.title.replace('free', '')} - ${metadata.common.albumartist}`,
+      loop: metadata.format.duration,
     },
   ],
   video: paths.video,

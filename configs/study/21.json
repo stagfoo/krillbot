@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/21.png",
+          "caption": "[Relaxing Improvised Rock] → Jamtastic (Royalty Free) - Alexander Nakarada [Royalty Free Music]",
+          "loop": 237.92326530612246
+        }
+      ],
+      "video": "./vids/study/21.mp4",
+      "audio": "./songs/study/21.mp3"
+    }
+  ]
+}

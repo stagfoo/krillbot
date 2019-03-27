@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/15.png",
+          "caption": "relaxing sounds for sleep vol xvii (30 minute music jam) - please dont beeb beeb",
+          "loop": 133.27673469387756
+        }
+      ],
+      "video": "./vids/study/15.mp4",
+      "audio": "./songs/study/15.mp3"
+    }
+  ]
+}

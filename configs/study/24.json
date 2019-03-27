@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/24.png",
+          "caption": "Relaxing Nintendo Piano Music (30 Minutes) - DS",
+          "loop": 1832.2808163265306
+        }
+      ],
+      "video": "./vids/study/24.mp4",
+      "audio": "./songs/study/24.mp3"
+    }
+  ]
+}

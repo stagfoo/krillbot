@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/22.png",
+          "caption": "Relaxing In Nature (Donkey Kong Country) - Dj CUTMAN",
+          "loop": 160.9665306122449
+        }
+      ],
+      "video": "./vids/study/22.mp4",
+      "audio": "./songs/study/22.mp3"
+    }
+  ]
+}

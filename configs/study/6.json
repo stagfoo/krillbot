@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/6.png",
+          "caption": "Cafe Del Mar-Do You Remember Me - Vedri",
+          "loop": 243.04326530612244
+        }
+      ],
+      "video": "./vids/study/6.mp4",
+      "audio": "./songs/study/6.mp3"
+    }
+  ]
+}

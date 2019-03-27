@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/3.png",
+          "caption": "How Far Can We Go? - Biotones & Nazca",
+          "loop": 339.0955102040816
+        }
+      ],
+      "video": "./vids/study/3.mp4",
+      "audio": "./songs/study/3.mp3"
+    }
+  ]
+}

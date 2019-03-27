@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/12.png",
+          "caption": "Lost Memories [Chill Relaxing Music] - Ghostrifter Official",
+          "loop": 336.0391836734694
+        }
+      ],
+      "video": "./vids/study/12.mp4",
+      "audio": "./songs/study/12.mp3"
+    }
+  ]
+}

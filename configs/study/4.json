@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/4.png",
+          "caption": "Cafe - UglyDude",
+          "loop": 131.03020408163266
+        }
+      ],
+      "video": "./vids/study/4.mp4",
+      "audio": "./songs/study/4.mp3"
+    }
+  ]
+}

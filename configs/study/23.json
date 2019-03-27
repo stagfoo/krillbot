@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/23.png",
+          "caption": "Relaxing Instrumental Music for sleeping      523 Hz #Water, Piano, Birds - Scuspin",
+          "loop": 484.0489795918367
+        }
+      ],
+      "video": "./vids/study/23.mp4",
+      "audio": "./songs/study/23.mp3"
+    }
+  ]
+}

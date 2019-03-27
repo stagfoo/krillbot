@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/25.png",
+          "caption": "Relaxing Piano Music - KevinMacLeod",
+          "loop": 1494.0473469387755
+        }
+      ],
+      "video": "./vids/study/25.mp4",
+      "audio": "./songs/study/25.mp3"
+    }
+  ]
+}

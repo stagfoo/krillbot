@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/5.png",
+          "caption": "Cafe - WEHTTAM_NITSUJ",
+          "loop": 120.58122448979591
+        }
+      ],
+      "video": "./vids/study/5.mp4",
+      "audio": "./songs/study/5.mp3"
+    }
+  ]
+}

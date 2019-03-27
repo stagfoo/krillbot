@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/17.png",
+          "caption": "Relaxing - Beau Bear (Sine Dream)",
+          "loop": 77.58367346938776
+        }
+      ],
+      "video": "./vids/study/17.mp4",
+      "audio": "./songs/study/17.mp3"
+    }
+  ]
+}

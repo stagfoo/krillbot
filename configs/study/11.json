@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/11.png",
+          "caption": "FREE Instrumental Background Music | Promo Music - Island Cafe",
+          "loop": 86.43918367346939
+        }
+      ],
+      "video": "./vids/study/11.mp4",
+      "audio": "./songs/study/11.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/1.png",
+          "caption": "[Acoustic] → Relaxing Ballad (Royalty - Alexander Nakarada [Royalty Free Music]",
+          "loop": 208.56163265306122
+        }
+      ],
+      "video": "./vids/study/1.mp4",
+      "audio": "./songs/study/1.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/27.png",
+          "caption": "Study Now - Bitter Lad",
+          "loop": 81.65877551020408
+        }
+      ],
+      "video": "./vids/study/27.mp4",
+      "audio": "./songs/study/27.mp3"
+    }
+  ]
+}

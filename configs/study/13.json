@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/13.png",
+          "caption": "Lunar Domes (CQ) at Zombie Cafe - Reckon",
+          "loop": 71.52326530612245
+        }
+      ],
+      "video": "./vids/study/13.mp4",
+      "audio": "./songs/study/13.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/7.png",
+          "caption": "Nostalgic Relaxing Jazz Piano - Cavity",
+          "loop": 264.3069387755102
+        }
+      ],
+      "video": "./vids/study/7.mp4",
+      "audio": "./songs/study/7.mp3"
+    }
+  ]
+}

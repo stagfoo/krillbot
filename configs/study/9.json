@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/study/9.png",
+          "caption": "FREE JAZZ BACKGROUND MUSIC (PARIS CAFE) [NO COPYRIGHT] - Kuro",
+          "loop": 76.85224489795918
+        }
+      ],
+      "video": "./vids/study/9.mp4",
+      "audio": "./songs/study/9.mp3"
+    }
+  ]
+}
