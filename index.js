@@ -2,14 +2,16 @@ const concat = require('ffmpeg-concat')
 const _ = require('lodash');
 const shell = require('shelljs');
 const fs = require('fs');
+// const storage = `./`;
+const storage  = `./tmp`;
 const sessionName = Date.now();
-const chillVideos = [
+const sourceVideoes = [
   `../vids/chill/0.mp4`,
   `../vids/chill/1.mp4`,
   `../vids/chill/3.mp4`,
   `../vids/chill/5.mp4`,
   `../vids/chill/6.mp4`,
-  // `../vids/chill/7.mp4`,
+  `../vids/chill/7.mp4`,
   `../vids/chill/8.mp4`,
   `../vids/chill/9.mp4`,
   `../vids/chill/10.mp4`,
@@ -17,12 +19,12 @@ const chillVideos = [
   `../vids/chill/12.mp4`,
   `../vids/chill/15.mp4`,
   `../vids/chill/16.mp4`,
-  // `../vids/chill/17.mp4`,
+  `../vids/chill/17.mp4`,
   `../vids/chill/18.mp4`,
   `../vids/chill/19.mp4`,
   `../vids/chill/20.mp4`,
   `../vids/chill/21.mp4`,
-  // `../vids/chill/22.mp4`,
+  `../vids/chill/22.mp4`,
   `../vids/chill/23.mp4`,
   `../vids/chill/24.mp4`,
   `../vids/chill/25.mp4`,
@@ -31,16 +33,56 @@ const chillVideos = [
   `../vids/chill/28.mp4`,
   `../vids/chill/29.mp4`,
   `../vids/chill/30.mp4`,
+  `../vids/study/0.mp4`,
+  `../vids/study/1.mp4`,
+  `../vids/study/2.mp4`,
+  `../vids/study/3.mp4`,
+  `../vids/study/5.mp4`,
+  // `../vids/study/6.mp4`,
+  `../vids/study/7.mp4`,
+  `../vids/study/8.mp4`,
+  `../vids/study/9.mp4`,
+  `../vids/study/10.mp4`,
+  `../vids/study/11.mp4`,
+  `../vids/study/12.mp4`,
+  `../vids/study/13.mp4`,
+  `../vids/study/14.mp4`,
+  `../vids/study/15.mp4`,
+  `../vids/study/16.mp4`,
+  `../vids/study/17.mp4`,
+  `../vids/study/18.mp4`,
+  `../vids/study/19.mp4`,
+  `../vids/study/20.mp4`,
+  `../vids/study/21.mp4`,
+  `../vids/study/22.mp4`,
+  `../vids/study/23.mp4`,
+  `../vids/study/24.mp4`,
+  `../vids/study/25.mp4`,
+  `../vids/study/26.mp4`,
+  `../vids/study/27.mp4`,
+  `../vids/study/28.mp4`,
+  `../vids/study/29.mp4`,
+  `../vids/study/30.mp4`,
 ];
-chillVideos.sort(() => Math.random() - 0.5);
+sourceVideoes.sort(() => Math.random() - 0.5);
 
-const list = _.sampleSize(chillVideos, 6);
+const list = _.sampleSize(sourceVideoes, 13);
 const track0Info = require(getConfigUrl(list[0]));
 const track1Info = require(getConfigUrl(list[1]));
 const track2Info = require(getConfigUrl(list[2]));
 const track3Info = require(getConfigUrl(list[3]));
 const track4Info = require(getConfigUrl(list[4]));
 const track5Info = require(getConfigUrl(list[5]));
+const track6Info = require(getConfigUrl(list[6]));
+const track7Info = require(getConfigUrl(list[7]));
+const track8Info = require(getConfigUrl(list[8]));
+const track9Info = require(getConfigUrl(list[9]));
+const track10Info = require(getConfigUrl(list[10]));
+const track11Info = require(getConfigUrl(list[11]));
+
+
+
+
 const data = `
 file '${list[0]}'
 file '${list[1]}'
@@ -48,6 +90,12 @@ file '${list[2]}'
 file '${list[3]}'
 file '${list[4]}'
 file '${list[5]}'
+file '${list[6]}'
+file '${list[7]}'
+file '${list[8]}'
+file '${list[9]}'
+file '${list[10]}'
+file '${list[11]}'
 `
 
 
@@ -64,6 +112,12 @@ ${getTracklistLine(track2Info)};
 ${getTracklistLine(track3Info)};
 ${getTracklistLine(track4Info)};
 ${getTracklistLine(track5Info)};
+${getTracklistLine(track6Info)};
+${getTracklistLine(track7Info)};
+${getTracklistLine(track8Info)};
+${getTracklistLine(track9Info)};
+${getTracklistLine(track10Info)};
+${getTracklistLine(track11Info)};
 ***********************************
 email suggestions to
 krillbotdj@gmail.com
@@ -71,13 +125,13 @@ krillbotdj@gmail.com
 Big thanks to all the talented soundcloud artist in this video.
 `
 console.log(ytDescription);
-fs.writeFile("./tmp/mixList.txt", data, function(err, data) {
+fs.writeFile(`${storage}/mixList.txt`, data, function(err, data) {
   if (err) console.log(err);
   console.log("Successfully Written to File.");
-  const cmd = `ffmpeg -f concat -safe 0 -i ./tmp/mixList.txt -c copy ./tmp/${sessionName}.mp4`;
+  const cmd = `ffmpeg -f concat -safe 0 -i ${storage}/mixList.txt -c copy ${storage}/${sessionName}.mp4`;
   shell.exec(cmd);
 });
-fs.writeFile(`./tmp/${sessionName}.txt`, ytDescription, function(err, data) {
+fs.writeFile(`${storage}/${sessionName}.txt`, ytDescription, function(err, data) {
 
 });
 
@@ -87,6 +141,7 @@ function getConfigUrl(url){
 
 function getTracklistLine(track, prevTime){
   //images because of videoshow settings
+  console.log(track);
   const trackInfo = track.config[0].images[0];
   return `${trackInfo.caption}`
   // return `00:00 => ${trackInfo.loop} ${trackInfo.caption}`

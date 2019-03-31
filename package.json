@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "new-configs": "node marker.js",
-    "new-videoes": "node server.js"
-
+    "new-videoes": "node server.js",
+    "new-yt": "node index.js"
   },
   "author": "",
   "license": "ISC",

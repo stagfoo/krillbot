@@ -13,6 +13,7 @@ const log = require('fancy-log');
 const GENRE = process.argv[2] || 'chill';
 
 for (let index = 0; index < 32; index++) {
+  log(`Generated snippet videos`)
   log(`index ${index}`);
   log(`genre ${GENRE}`);
   const result = shell.exec(`node video.js './configs/${GENRE}/${index}.json'`);
