@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/9.png",
+          "loop": 118.0473469387755,
+          "video": "./vids/lofi/9.mp4",
+          "audio": "./songs/lofi/9.mp3",
+          "caption": "Lofi Vibes - Lil UFO"
+        }
+      ]
+    }
+  ]
+}

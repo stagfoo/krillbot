@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/20.png",
+          "loop": 198.79183673469387,
+          "video": "./vids/lofi/20.mp4",
+          "audio": "./songs/lofi/20.mp3",
+          "caption": "Lofi beat - iPad for ART"
+        }
+      ]
+    }
+  ]
+}

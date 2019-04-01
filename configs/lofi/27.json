@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/27.png",
+          "loop": 422.1387755102041,
+          "video": "./vids/lofi/27.mp4",
+          "audio": "./songs/lofi/27.mp3",
+          "caption": " [hiphop - lofi mix] - /plʌk/ "
+        }
+      ]
+    }
+  ]
+}

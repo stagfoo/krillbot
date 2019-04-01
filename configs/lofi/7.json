@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/7.png",
+          "loop": 244.53224489795917,
+          "video": "./vids/lofi/7.mp4",
+          "audio": "./songs/lofi/7.mp3",
+          "caption": "Just hold me (Free Lofi Beat) - CHUD"
+        }
+      ]
+    }
+  ]
+}

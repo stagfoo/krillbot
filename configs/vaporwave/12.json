@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/12.png",
-          "caption": "You cant see eyepo - Vaporwave Gal",
-          "loop": 88.0065306122449
+          "loop": 88.0065306122449,
+          "video": "./vids/vaporwave/12.mp4",
+          "audio": "./songs/vaporwave/12.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/12.mp4",
-      "audio": "./songs/vaporwave/12.mp3"
+      ]
     }
   ]
 }

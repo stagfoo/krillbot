@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/2.png",
+          "loop": 3054.524081632653,
+          "video": "./vids/lofi/2.mp4",
+          "audio": "./songs/lofi/2.mp3",
+          "caption": "Edits / Disco Funk R&B Soul / LoFi - Gokhan ISIK"
+        }
+      ]
+    }
+  ]
+}

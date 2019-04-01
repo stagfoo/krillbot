@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/13.png",
+          "loop": 169.45632653061224,
+          "video": "./vids/lofi/13.mp4",
+          "audio": "./songs/lofi/13.mp3",
+          "caption": "lofi - dBrewin'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/22.png",
+          "loop": 265.8742857142857,
+          "video": "./vids/lofi/22.mp4",
+          "audio": "./songs/lofi/22.mp3",
+          "caption": "Lofi Relax ''DEAD VIBES''Beat - JollyFlowers49/51"
+        }
+      ]
+    }
+  ]
+}

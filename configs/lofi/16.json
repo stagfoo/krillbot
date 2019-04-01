@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/16.png",
+          "loop": 390.0604081632653,
+          "video": "./vids/lofi/16.mp4",
+          "audio": "./songs/lofi/16.mp3",
+          "caption": "Lofi - Poetic-J"
+        }
+      ]
+    }
+  ]
+}

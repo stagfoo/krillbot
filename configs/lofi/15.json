@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/15.png",
+          "loop": 88.18938775510205,
+          "video": "./vids/lofi/15.mp4",
+          "audio": "./songs/lofi/15.mp3",
+          "caption": "Lofi - Caden Currie"
+        }
+      ]
+    }
+  ]
+}

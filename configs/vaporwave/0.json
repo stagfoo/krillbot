@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/0.png",
-          "caption": "Vaporwave Disco House Mix LP - InfiniteFluxury",
-          "loop": 3999.111836734694
+          "loop": 3999.111836734694,
+          "video": "./vids/vaporwave/0.mp4",
+          "audio": "./songs/vaporwave/0.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/0.mp4",
-      "audio": "./songs/vaporwave/0.mp3"
+      ]
     }
   ]
 }

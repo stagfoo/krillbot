@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/27.png",
-          "caption": "I hide my sadness with pop music - Vaporwave Gal",
-          "loop": 86.3869387755102
+          "loop": 86.3869387755102,
+          "video": "./vids/vaporwave/27.mp4",
+          "audio": "./songs/vaporwave/27.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/27.mp4",
-      "audio": "./songs/vaporwave/27.mp3"
+      ]
     }
   ]
 }

@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/5.png",
-          "caption": "Royalty FREE Vaporwave Beat – Into Freeman (Prod. Lucky Chester) - Lucky Chester",
-          "loop": 418.45551020408163
+          "loop": 418.45551020408163,
+          "video": "./vids/vaporwave/5.mp4",
+          "audio": "./songs/vaporwave/5.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/5.mp4",
-      "audio": "./songs/vaporwave/5.mp3"
+      ]
     }
   ]
 }

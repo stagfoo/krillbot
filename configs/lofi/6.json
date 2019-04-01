@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/6.png",
+          "loop": 218.04408163265308,
+          "video": "./vids/lofi/6.mp4",
+          "audio": "./songs/lofi/6.mp3",
+          "caption": "I Let the Devil in (2016 Lofi Version ) - Kathy Freeman"
+        }
+      ]
+    }
+  ]
+}

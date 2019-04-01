@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/16.png",
-          "caption": "SHADILAY (vaporwave offbeat(why?) remix) - BreosBeos",
-          "loop": 325.0677551020408
+          "loop": 325.0677551020408,
+          "video": "./vids/vaporwave/16.mp4",
+          "audio": "./songs/vaporwave/16.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/16.mp4",
-      "audio": "./songs/vaporwave/16.mp3"
+      ]
     }
   ]
 }

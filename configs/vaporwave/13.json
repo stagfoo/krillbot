@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/13.png",
-          "caption": "[VaporWave]: S U I C I D E - Crystalis / Tweatz",
-          "loop": 129.01877551020408
+          "loop": 129.01877551020408,
+          "video": "./vids/vaporwave/13.mp4",
+          "audio": "./songs/vaporwave/13.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/13.mp4",
-      "audio": "./songs/vaporwave/13.mp3"
+      ]
     }
   ]
 }

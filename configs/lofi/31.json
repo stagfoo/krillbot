@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/31.png",
+          "loop": 359.9934693877551,
+          "video": "./vids/lofi/31.mp4",
+          "audio": "./songs/lofi/31.mp3",
+          "caption": "Ｗｉｎｄ (Lofi Hip-Hop) - M X X R E 🌠"
+        }
+      ]
+    }
+  ]
+}

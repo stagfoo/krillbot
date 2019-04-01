@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/24.png",
+          "loop": 126.06693877551021,
+          "video": "./vids/lofi/24.mp4",
+          "audio": "./songs/lofi/24.mp3",
+          "caption": "Lofi Type Beat (Prod. By Justin Isaiah) - Justin Isaiah"
+        }
+      ]
+    }
+  ]
+}

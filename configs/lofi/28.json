@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/28.png",
+          "loop": 163.78775510204082,
+          "video": "./vids/lofi/28.mp4",
+          "audio": "./songs/lofi/28.mp3",
+          "caption": "Royalty FREE LoFi Hip Hop Beat – Cocktail (Prod. Lucky Chester) - Lucky Chester"
+        }
+      ]
+    }
+  ]
+}

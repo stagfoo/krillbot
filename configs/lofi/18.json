@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/18.png",
+          "loop": 29.178775510204083,
+          "video": "./vids/lofi/18.mp4",
+          "audio": "./songs/lofi/18.mp3",
+          "caption": "LoFi - big tyler the clout god"
+        }
+      ]
+    }
+  ]
+}

@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/1.png",
-          "caption": "Future Funk Vaporwave Disco DJ Mix feat. Desired x Macross 82-99 - InfiniteFluxury",
-          "loop": 2427.8204081632653
+          "loop": 2427.8204081632653,
+          "video": "./vids/vaporwave/1.mp4",
+          "audio": "./songs/vaporwave/1.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/1.mp4",
-      "audio": "./songs/vaporwave/1.mp3"
+      ]
     }
   ]
 }

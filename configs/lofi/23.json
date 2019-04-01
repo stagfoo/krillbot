@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/23.png",
+          "loop": 24.346122448979592,
+          "video": "./vids/lofi/23.mp4",
+          "audio": "./songs/lofi/23.mp3",
+          "caption": "Soft Vinyl Piano (Sample) - Lofi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/4.png",
+          "loop": 174.28897959183672,
+          "video": "./vids/lofi/4.mp4",
+          "audio": "./songs/lofi/4.mp3",
+          "caption": "[FREE] Good Vibes | Lofi Hip Hop Beat (feat. Lil LJ) - vapor 🌌"
+        }
+      ]
+    }
+  ]
+}

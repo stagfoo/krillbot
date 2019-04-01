@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/2.png",
-          "caption": "Vaporwave Mix 01 - InfiniteFluxury",
-          "loop": 2152.3591836734695
+          "loop": 2152.3591836734695,
+          "video": "./vids/vaporwave/2.mp4",
+          "audio": "./songs/vaporwave/2.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/2.mp4",
-      "audio": "./songs/vaporwave/2.mp3"
+      ]
     }
   ]
 }

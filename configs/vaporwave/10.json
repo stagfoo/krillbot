@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/10.png",
-          "caption": "um free jazz meio vaporwave ou um vaporwave meio free jazz - Olonjonso",
-          "loop": 62.14530612244898
+          "loop": 62.14530612244898,
+          "video": "./vids/vaporwave/10.mp4",
+          "audio": "./songs/vaporwave/10.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/10.mp4",
-      "audio": "./songs/vaporwave/10.mp3"
+      ]
     }
   ]
 }

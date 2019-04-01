@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/23.png",
-          "caption": "im drunk so have a song - Vaporwave Gal",
-          "loop": 84.00979591836735
+          "loop": 84.00979591836735,
+          "video": "./vids/vaporwave/23.mp4",
+          "audio": "./songs/vaporwave/23.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/23.mp4",
-      "audio": "./songs/vaporwave/23.mp3"
+      ]
     }
   ]
 }

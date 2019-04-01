@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/20.png",
-          "caption": "an attempt at vaporwave but with drums - Serzone",
-          "loop": 78.0538775510204
+          "loop": 78.0538775510204,
+          "video": "./vids/vaporwave/20.mp4",
+          "audio": "./songs/vaporwave/20.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/20.mp4",
-      "audio": "./songs/vaporwave/20.mp3"
+      ]
     }
   ]
 }

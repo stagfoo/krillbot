@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/5.png",
+          "loop": 348.816,
+          "video": "./vids/lofi/5.mp4",
+          "audio": "./songs/lofi/5.mp3",
+          "caption": "GO-GO Sample MIX(LoFi 90's PA Tape Mix) - BLACKMAJIK ENTERTAINMENT"
+        }
+      ]
+    }
+  ]
+}

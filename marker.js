@@ -40,19 +40,22 @@ function getMeta(path) {
 }
 
 function handleMetaData(metadata, configFile, paths){
-  console.log(metadata.common);
-  configFile.set('config', [{
+  const caption =  `${metadata.common.title.replace('free', '')} - ${metadata.common.albumartist}`;
+  const config = {
     images: [
       {
       path: paths.slide,
       //remove titles like roylity free or such
-      caption: `${metadata.common.title.replace('free', '')} - ${metadata.common.albumartist}`,
       loop: metadata.format.duration,
-    },
-  ],
-  video: paths.video,
-  audio: paths.audio
-  }]).write()
+      video: paths.video,
+      audio: paths.audio
+    }]
+  };
+  if(GENRE !== 'vaporwave'){
+    config.images[0].caption = caption
+  }
+  configFile.set('config', [config
+  ]).write()
 }
 
 function handleError() {

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/25.png",
+          "loop": 214.80489795918368,
+          "video": "./vids/lofi/25.mp4",
+          "audio": "./songs/lofi/25.mp3",
+          "caption": "Concrete Home [LoFi Beat] - Numb"
+        }
+      ]
+    }
+  ]
+}

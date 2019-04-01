@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/12.png",
+          "loop": 96.54857142857144,
+          "video": "./vids/lofi/12.mp4",
+          "audio": "./songs/lofi/12.mp3",
+          "caption": "lofi - WhiteLight"
+        }
+      ]
+    }
+  ]
+}

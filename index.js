@@ -63,6 +63,23 @@ const sourceVideoes = [
   `../vids/study/28.mp4`,
   `../vids/study/29.mp4`,
   `../vids/study/30.mp4`,
+  `../vids/vaporwave/0.mp4`,
+  `../vids/vaporwave/2.mp4`,
+  `../vids/vaporwave/3.mp4`,
+  `../vids/vaporwave/4.mp4`,
+  `../vids/vaporwave/5.mp4`,
+  `../vids/vaporwave/6.mp4`,
+  `../vids/vaporwave/7.mp4`,
+  `../vids/vaporwave/8.mp4`,
+  `../vids/vaporwave/9.mp4`,
+  `../vids/vaporwave/10.mp4`,
+  `../vids/vaporwave/11.mp4`,
+  `../vids/vaporwave/12.mp4`,
+  `../vids/vaporwave/13.mp4`,
+  `../vids/vaporwave/14.mp4`,
+  `../vids/vaporwave/15.mp4`,
+  `../vids/vaporwave/16.mp4`,
+  `../vids/vaporwave/17.mp4`,
 ];
 sourceVideoes.sort(() => Math.random() - 0.5);
 

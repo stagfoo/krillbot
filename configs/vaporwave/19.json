@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/19.png",
-          "caption": "I made this song in the span of 3 days - Vaporwave Gal",
-          "loop": 112.01306122448979
+          "loop": 112.01306122448979,
+          "video": "./vids/vaporwave/19.mp4",
+          "audio": "./songs/vaporwave/19.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/19.mp4",
-      "audio": "./songs/vaporwave/19.mp3"
+      ]
     }
   ]
 }

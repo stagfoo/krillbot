@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/17.png",
+          "loop": 154.04408163265308,
+          "video": "./vids/lofi/17.mp4",
+          "audio": "./songs/lofi/17.mp3",
+          "caption": "Lofi - BEATSBYMAV"
+        }
+      ]
+    }
+  ]
+}

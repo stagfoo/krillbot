@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/14.png",
+          "loop": 182.93551020408162,
+          "video": "./vids/lofi/14.mp4",
+          "audio": "./songs/lofi/14.mp3",
+          "caption": "Lofi - Lo-Fi-Theory"
+        }
+      ]
+    }
+  ]
+}

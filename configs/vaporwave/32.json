@@ -1,0 +1,14 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/vaporwave/32.png",
+          "loop": 166.7395918367347,
+          "video": "./vids/vaporwave/32.mp4",
+          "audio": "./songs/vaporwave/32.mp3"
+        }
+      ]
+    }
+  ]
+}

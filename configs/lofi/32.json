@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/32.png",
+          "loop": 226.29877551020408,
+          "video": "./vids/lofi/32.mp4",
+          "audio": "./songs/lofi/32.mp3",
+          "caption": "Free Chilled Lofi Beat - 70bpm - #002"
+        }
+      ]
+    }
+  ]
+}

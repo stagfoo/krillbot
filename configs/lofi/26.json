@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/26.png",
+          "loop": 97.20163265306122,
+          "video": "./vids/lofi/26.mp4",
+          "audio": "./songs/lofi/26.mp3",
+          "caption": "One block - LoFi from Fargo"
+        }
+      ]
+    }
+  ]
+}

@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/4.png",
-          "caption": "Vaporwave - Take On Me",
-          "loop": 354.48163265306124
+          "loop": 354.48163265306124,
+          "video": "./vids/vaporwave/4.mp4",
+          "audio": "./songs/vaporwave/4.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/4.mp4",
-      "audio": "./songs/vaporwave/4.mp3"
+      ]
     }
   ]
 }

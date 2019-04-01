@@ -4,12 +4,11 @@
       "images": [
         {
           "path": "./slides/vaporwave/22.png",
-          "caption": "Vaporwave Mix Snippet - Lil Creepshow x DOM",
-          "loop": 30.85061224489796
+          "loop": 30.85061224489796,
+          "video": "./vids/vaporwave/22.mp4",
+          "audio": "./songs/vaporwave/22.mp3"
         }
-      ],
-      "video": "./vids/vaporwave/22.mp4",
-      "audio": "./songs/vaporwave/22.mp3"
+      ]
     }
   ]
 }
