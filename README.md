@@ -33,3 +33,6 @@ this usually takes seconds... it will join random videos (inside its source arra
 ```
 npm run new-yt [folder/genre]
 ```
+
+# Example of a finally product
+https://www.youtube.com/watch?v=TdgvMlpIEbo
