@@ -1,4 +1,4 @@
-# Krillbot
+# Krillbot 🦐🤖
 
 each folder is split into genres
 
