@@ -11,7 +11,7 @@ Vids
   |___study //genre
 ```
 
-this will not create the folders(yet)
+this will not create the folders(yet) which will make your video creation fail so please check
 
 # Create Video Configs
 this will give you a config for the videoshow npm package please check its documentation
