@@ -15,20 +15,26 @@
     "@ffmpeg-installer/ffmpeg": "^1.0.17",
     "audioconcat": "^0.1.3",
     "browser-id3-writer": "^4.1.0",
+    "bug-killer": "^4.4.4",
     "express": "^4.16.4",
     "fancy-log": "^1.3.3",
     "ffmetadata": "^1.5.0",
     "ffmpeg-concat": "^1.0.11",
     "fluent-ffmpeg": "^2.1.2",
     "id3-reader": "0.0.2",
+    "lien": "^3.3.0",
     "lodash": "^4.17.11",
     "lodash.sample": "^4.2.1",
     "lowdb": "^1.0.0",
     "mp3-concat": "^0.1.2",
     "mp3-duration": "^1.1.0",
     "music-metadata": "^3.5.3",
+    "opn": "^6.0.0",
+    "pretty-bytes": "^5.1.0",
+    "r-json": "^1.2.9",
     "shelljs": "^0.8.3",
     "utils": "^0.3.1",
-    "videoshow": "^0.1.11"
+    "videoshow": "^0.1.11",
+    "youtube-api": "^2.0.10"
   }
 }

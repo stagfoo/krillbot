@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/0.png",
-          "loop": 136.85551020408164,
-          "video": "./vids/lofi/0.mp4",
-          "audio": "./songs/lofi/0.mp3",
-          "caption": "Lofi / Chill - After rain comes sunshine"
+          "caption": "Lofi / Chill - After rain comes sunshine",
+          "loop": 136.85551020408164
         }
-      ]
+      ],
+      "video": "./vids/lofi/0.mp4",
+      "audio": "./songs/lofi/0.mp3"
     }
   ]
 }

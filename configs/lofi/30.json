@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/30.png",
-          "loop": 85.26367346938775,
-          "video": "./vids/lofi/30.mp4",
-          "audio": "./songs/lofi/30.mp3",
-          "caption": "sequence live volca sample lofi - user17081997"
+          "caption": "sequence live volca sample lofi - user17081997",
+          "loop": 85.26367346938775
         }
-      ]
+      ],
+      "video": "./vids/lofi/30.mp4",
+      "audio": "./songs/lofi/30.mp3"
     }
   ]
 }

@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/21.png",
-          "loop": 261.59020408163263,
-          "video": "./vids/lofi/21.mp4",
-          "audio": "./songs/lofi/21.mp3",
-          "caption": "[LoFi] Luminaires - Obani"
+          "caption": "[LoFi] Luminaires - Obani",
+          "loop": 261.59020408163263
         }
-      ]
+      ],
+      "video": "./vids/lofi/21.mp4",
+      "audio": "./songs/lofi/21.mp3"
     }
   ]
 }

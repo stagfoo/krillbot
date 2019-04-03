@@ -46,14 +46,15 @@ function handleMetaData(metadata, configFile, paths){
       {
       path: paths.slide,
       //remove titles like roylity free or such
+      caption,
       loop: metadata.format.duration,
-      video: paths.video,
-      audio: paths.audio
-    }]
+    }],
+    video: paths.video,
+    audio: paths.audio
   };
-  if(GENRE !== 'vaporwave'){
-    config.images[0].caption = caption
-  }
+  // if(GENRE !== 'vaporwave'){
+  //   config.images[0].caption = caption
+  // }
   configFile.set('config', [config
   ]).write()
 }

@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/8.png",
-          "loop": 145.84163265306123,
-          "video": "./vids/lofi/8.mp4",
-          "audio": "./songs/lofi/8.mp3",
-          "caption": "King - LoFi from Fargo"
+          "caption": "King - LoFi from Fargo",
+          "loop": 145.84163265306123
         }
-      ]
+      ],
+      "video": "./vids/lofi/8.mp4",
+      "audio": "./songs/lofi/8.mp3"
     }
   ]
 }

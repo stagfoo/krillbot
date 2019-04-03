@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/29.png",
-          "loop": 189.4661224489796,
-          "video": "./vids/lofi/29.mp4",
-          "audio": "./songs/lofi/29.mp3",
-          "caption": "seaside (Lofi Hip-Hop) - M X X R E 🌠"
+          "caption": "seaside (Lofi Hip-Hop) - M X X R E 🌠",
+          "loop": 189.4661224489796
         }
-      ]
+      ],
+      "video": "./vids/lofi/29.mp4",
+      "audio": "./songs/lofi/29.mp3"
     }
   ]
 }

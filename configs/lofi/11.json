@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/11.png",
-          "loop": 84.48,
-          "video": "./vids/lofi/11.mp4",
-          "audio": "./songs/lofi/11.mp3",
-          "caption": "lofi - Alex Mudd"
+          "caption": "lofi - Alex Mudd",
+          "loop": 84.48
         }
-      ]
+      ],
+      "video": "./vids/lofi/11.mp4",
+      "audio": "./songs/lofi/11.mp3"
     }
   ]
 }

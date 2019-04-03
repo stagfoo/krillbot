@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/3.png",
-          "loop": 138.8930612244898,
-          "video": "./vids/lofi/3.mp4",
-          "audio": "./songs/lofi/3.mp3",
-          "caption": "[FREE] Chillin | Lofi Hip Hop Beat - vapor 🌌"
+          "caption": "[FREE] Chillin | Lofi Hip Hop Beat - vapor 🌌",
+          "loop": 138.8930612244898
         }
-      ]
+      ],
+      "video": "./vids/lofi/3.mp4",
+      "audio": "./songs/lofi/3.mp3"
     }
   ]
 }

@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/19.png",
-          "loop": 278.30857142857144,
-          "video": "./vids/lofi/19.mp4",
-          "audio": "./songs/lofi/19.mp3",
-          "caption": "LoFi Ark - ᕲi̾r̾੮ Porcelai̾n"
+          "caption": "LoFi Ark - ᕲi̾r̾੮ Porcelai̾n",
+          "loop": 278.30857142857144
         }
-      ]
+      ],
+      "video": "./vids/lofi/19.mp4",
+      "audio": "./songs/lofi/19.mp3"
     }
   ]
 }

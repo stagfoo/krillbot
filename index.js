@@ -2,10 +2,60 @@ const concat = require('ffmpeg-concat')
 const _ = require('lodash');
 const shell = require('shelljs');
 const fs = require('fs');
-// const storage = `./`;
 const storage  = `./tmp`;
 const sessionName = Date.now();
-const sourceVideoes = [
+
+const vaporwave = [
+  `../vids/vaporwave/0.mp4`,
+  `../vids/vaporwave/2.mp4`,
+  `../vids/vaporwave/3.mp4`,
+  `../vids/vaporwave/4.mp4`,
+  `../vids/vaporwave/5.mp4`,
+  `../vids/vaporwave/6.mp4`,
+  `../vids/vaporwave/7.mp4`,
+  `../vids/vaporwave/8.mp4`,
+  `../vids/vaporwave/9.mp4`,
+  `../vids/vaporwave/10.mp4`,
+  `../vids/vaporwave/11.mp4`,
+  `../vids/vaporwave/12.mp4`,
+  `../vids/vaporwave/13.mp4`,
+  `../vids/vaporwave/14.mp4`,
+  `../vids/vaporwave/15.mp4`,
+  `../vids/vaporwave/16.mp4`,
+  `../vids/vaporwave/17.mp4`,
+]
+const study = [
+  `../vids/study/0.mp4`,
+  `../vids/study/1.mp4`,
+  `../vids/study/2.mp4`,
+  `../vids/study/3.mp4`,
+  `../vids/study/5.mp4`,
+  `../vids/study/7.mp4`,
+  `../vids/study/8.mp4`,
+  `../vids/study/9.mp4`,
+  `../vids/study/10.mp4`,
+  `../vids/study/11.mp4`,
+  `../vids/study/12.mp4`,
+  `../vids/study/13.mp4`,
+  `../vids/study/14.mp4`,
+  `../vids/study/15.mp4`,
+  `../vids/study/16.mp4`,
+  `../vids/study/17.mp4`,
+  `../vids/study/18.mp4`,
+  `../vids/study/19.mp4`,
+  `../vids/study/20.mp4`,
+  `../vids/study/21.mp4`,
+  `../vids/study/22.mp4`,
+  `../vids/study/23.mp4`,
+  `../vids/study/24.mp4`,
+  `../vids/study/25.mp4`,
+  `../vids/study/26.mp4`,
+  `../vids/study/27.mp4`,
+  `../vids/study/28.mp4`,
+  `../vids/study/29.mp4`,
+  `../vids/study/30.mp4`,
+]
+const chill = [
   `../vids/chill/0.mp4`,
   `../vids/chill/1.mp4`,
   `../vids/chill/3.mp4`,
@@ -33,53 +83,34 @@ const sourceVideoes = [
   `../vids/chill/28.mp4`,
   `../vids/chill/29.mp4`,
   `../vids/chill/30.mp4`,
-  `../vids/study/0.mp4`,
-  `../vids/study/1.mp4`,
-  `../vids/study/2.mp4`,
-  `../vids/study/3.mp4`,
-  `../vids/study/5.mp4`,
-  // `../vids/study/6.mp4`,
-  `../vids/study/7.mp4`,
-  `../vids/study/8.mp4`,
-  `../vids/study/9.mp4`,
-  `../vids/study/10.mp4`,
-  `../vids/study/11.mp4`,
-  `../vids/study/12.mp4`,
-  `../vids/study/13.mp4`,
-  `../vids/study/14.mp4`,
-  `../vids/study/15.mp4`,
-  `../vids/study/16.mp4`,
-  `../vids/study/17.mp4`,
-  `../vids/study/18.mp4`,
-  `../vids/study/19.mp4`,
-  `../vids/study/20.mp4`,
-  `../vids/study/21.mp4`,
-  `../vids/study/22.mp4`,
-  `../vids/study/23.mp4`,
-  `../vids/study/24.mp4`,
-  `../vids/study/25.mp4`,
-  `../vids/study/26.mp4`,
-  `../vids/study/27.mp4`,
-  `../vids/study/28.mp4`,
-  `../vids/study/29.mp4`,
-  `../vids/study/30.mp4`,
-  `../vids/vaporwave/0.mp4`,
-  `../vids/vaporwave/2.mp4`,
-  `../vids/vaporwave/3.mp4`,
-  `../vids/vaporwave/4.mp4`,
-  `../vids/vaporwave/5.mp4`,
-  `../vids/vaporwave/6.mp4`,
-  `../vids/vaporwave/7.mp4`,
-  `../vids/vaporwave/8.mp4`,
-  `../vids/vaporwave/9.mp4`,
-  `../vids/vaporwave/10.mp4`,
-  `../vids/vaporwave/11.mp4`,
-  `../vids/vaporwave/12.mp4`,
-  `../vids/vaporwave/13.mp4`,
-  `../vids/vaporwave/14.mp4`,
-  `../vids/vaporwave/15.mp4`,
-  `../vids/vaporwave/16.mp4`,
-  `../vids/vaporwave/17.mp4`,
+]
+const lofi = [
+  `../vids/lofi/0.mp4`,
+  `../vids/lofi/1.mp4`,
+  `../vids/lofi/3.mp4`,
+  `../vids/lofi/5.mp4`,
+  `../vids/lofi/7.mp4`,
+  `../vids/lofi/8.mp4`,
+  `../vids/lofi/9.mp4`,
+  `../vids/lofi/10.mp4`,
+  `../vids/lofi/11.mp4`,
+  `../vids/lofi/12.mp4`,
+  `../vids/lofi/15.mp4`,
+  `../vids/lofi/16.mp4`,
+  `../vids/lofi/17.mp4`,
+  `../vids/lofi/18.mp4`,
+  `../vids/lofi/19.mp4`,
+  `../vids/lofi/20.mp4`,
+  `../vids/lofi/21.mp4`,
+  `../vids/lofi/22.mp4`,
+  `../vids/lofi/23.mp4`,
+]
+
+const sourceVideoes = [
+  ..._.sampleSize(lofi, 6),
+  ..._.sampleSize(chill, 4),
+  ..._.sampleSize(study, 2),
+
 ];
 sourceVideoes.sort(() => Math.random() - 0.5);
 
@@ -141,16 +172,25 @@ krillbotdj@gmail.com
 ***********************************
 Big thanks to all the talented soundcloud artist in this video.
 `
-console.log(ytDescription);
-fs.writeFile(`${storage}/mixList.txt`, data, function(err, data) {
-  if (err) console.log(err);
-  console.log("Successfully Written to File.");
-  const cmd = `ffmpeg -f concat -safe 0 -i ${storage}/mixList.txt -c copy ${storage}/${sessionName}.mp4`;
-  shell.exec(cmd);
-});
-fs.writeFile(`${storage}/${sessionName}.txt`, ytDescription, function(err, data) {
+const infoJson = {
+  title: `Session ${sessionName} | Krillbot | Relaxing beach vibes and study music`,
+  file: `./tmp/${sessionName}.mp4`,
+  description: ytDescription
+}
 
+fs.writeFile(`${storage}/${sessionName}.json`, JSON.stringify(infoJson), function(err, jsonData) {
+
+  fs.writeFile(`${storage}/mixList.txt`, data, function(err, data) {
+    if (err) console.log(err);
+    console.log("Successfully Written to File.");
+    const cmd = `ffmpeg -f concat -safe 0 -i ${storage}/mixList.txt -c copy ${storage}/${sessionName}.mp4`;
+    shell.exec(cmd).code;
+    shell.exec(`node uploader.js ${sessionName}`);
+
+  });
 });
+
+
 
 function getConfigUrl(url){
   return url.replace('mp4', `json`).replace('vids','configs').replace('../', './')

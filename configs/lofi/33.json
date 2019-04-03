@@ -4,12 +4,12 @@
       "images": [
         {
           "path": "./slides/lofi/33.png",
-          "loop": 211.72244897959183,
-          "video": "./vids/lofi/33.mp4",
-          "audio": "./songs/lofi/33.mp3",
-          "caption": "Free Chilled Lofi Beat - 70bpm - #005"
+          "caption": "Free Chilled Lofi Beat - 70bpm - #005",
+          "loop": 211.72244897959183
         }
-      ]
+      ],
+      "video": "./vids/lofi/33.mp4",
+      "audio": "./songs/lofi/33.mp3"
     }
   ]
 }
