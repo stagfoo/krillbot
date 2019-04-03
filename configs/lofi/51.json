@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/51.png",
+          "caption": "al roce de una hoja cayendo - OV·",
+          "loop": 119.90204081632653
+        }
+      ],
+      "video": "./vids/lofi/51.mp4",
+      "audio": "./songs/lofi/51.mp3"
+    }
+  ]
+}

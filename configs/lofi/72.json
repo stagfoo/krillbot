@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/72.png",
+          "caption": "awkward - maliciou",
+          "loop": 110.7591836734694
+        }
+      ],
+      "video": "./vids/lofi/72.mp4",
+      "audio": "./songs/lofi/72.mp3"
+    }
+  ]
+}

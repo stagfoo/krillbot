@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/54.png",
+          "caption": "Anxiety - JAMM Records",
+          "loop": 133.4857142857143
+        }
+      ],
+      "video": "./vids/lofi/54.mp4",
+      "audio": "./songs/lofi/54.mp3"
+    }
+  ]
+}

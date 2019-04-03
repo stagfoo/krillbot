@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/69.png",
+          "caption": "Aural Medication - jae.ford",
+          "loop": 222.3542857142857
+        }
+      ],
+      "video": "./vids/lofi/69.mp4",
+      "audio": "./songs/lofi/69.mp3"
+    }
+  ]
+}

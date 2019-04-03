@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/59.png",
+          "caption": "Artesian (feat. MKLS) - D r i p s    Z a c h e e r",
+          "loop": 121.2865306122449
+        }
+      ],
+      "video": "./vids/lofi/59.mp4",
+      "audio": "./songs/lofi/59.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/60.png",
+          "caption": "asleep - Barradeen",
+          "loop": 112.16979591836734
+        }
+      ],
+      "video": "./vids/lofi/60.mp4",
+      "audio": "./songs/lofi/60.mp3"
+    }
+  ]
+}

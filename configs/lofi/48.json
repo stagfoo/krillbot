@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/48.png",
+          "caption": "almost blue - Jozwyn",
+          "loop": 94.35428571428571
+        }
+      ],
+      "video": "./vids/lofi/48.mp4",
+      "audio": "./songs/lofi/48.mp3"
+    }
+  ]
+}

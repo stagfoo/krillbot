@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/53.png",
+          "caption": "ambitions - ＳＯＲＲＹ 🌙",
+          "loop": 153.15591836734694
+        }
+      ],
+      "video": "./vids/lofi/53.mp4",
+      "audio": "./songs/lofi/53.mp3"
+    }
+  ]
+}

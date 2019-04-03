@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/57.png",
+          "caption": "a quiet mind - Jozwyn",
+          "loop": 85.34204081632653
+        }
+      ],
+      "video": "./vids/lofi/57.mp4",
+      "audio": "./songs/lofi/57.mp3"
+    }
+  ]
+}

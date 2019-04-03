@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/58.png",
+          "caption": "are u watching porn/ feat. Victoria Coleman - el perro en un cohete",
+          "loop": 205.7665306122449
+        }
+      ],
+      "video": "./vids/lofi/58.mp4",
+      "audio": "./songs/lofi/58.mp3"
+    }
+  ]
+}

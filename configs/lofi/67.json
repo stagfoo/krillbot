@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/67.png",
+          "caption": "at Savers - ◍ dandan ◍",
+          "loop": 70.29551020408164
+        }
+      ],
+      "video": "./vids/lofi/67.mp4",
+      "audio": "./songs/lofi/67.mp3"
+    }
+  ]
+}

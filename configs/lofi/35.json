@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/35.png",
+          "caption": "A Dog Runs West - Ice Cream Cult",
+          "loop": 92.4995918367347
+        }
+      ],
+      "video": "./vids/lofi/35.mp4",
+      "audio": "./songs/lofi/35.mp3"
+    }
+  ]
+}

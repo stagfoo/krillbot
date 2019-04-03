@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/61.png",
+          "caption": "Asphalt Groove - emaillons",
+          "loop": 116.97632653061224
+        }
+      ],
+      "video": "./vids/lofi/61.mp4",
+      "audio": "./songs/lofi/61.mp3"
+    }
+  ]
+}

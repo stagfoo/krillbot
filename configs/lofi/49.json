@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/49.png",
+          "caption": "Almost Happy - Kim Jong Chill",
+          "loop": 237.53142857142856
+        }
+      ],
+      "video": "./vids/lofi/49.mp4",
+      "audio": "./songs/lofi/49.mp3"
+    }
+  ]
+}

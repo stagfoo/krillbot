@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/70.png",
+          "caption": "away - elaborate",
+          "loop": 130.37714285714284
+        }
+      ],
+      "video": "./vids/lofi/70.mp4",
+      "audio": "./songs/lofi/70.mp3"
+    }
+  ]
+}

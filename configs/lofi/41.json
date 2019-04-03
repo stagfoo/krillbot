@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/41.png",
+          "caption": "Aliko - This Is Winter",
+          "loop": 116.66285714285715
+        }
+      ],
+      "video": "./vids/lofi/41.mp4",
+      "audio": "./songs/lofi/41.mp3"
+    }
+  ]
+}

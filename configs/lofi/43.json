@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/43.png",
+          "caption": "All of this will turn to dust - ChrisLody",
+          "loop": 303.4383673469388
+        }
+      ],
+      "video": "./vids/lofi/43.mp4",
+      "audio": "./songs/lofi/43.mp3"
+    }
+  ]
+}

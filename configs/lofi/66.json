@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/66.png",
+          "caption": "Atleast Looks Green - Sro",
+          "loop": 190.30204081632652
+        }
+      ],
+      "video": "./vids/lofi/66.mp4",
+      "audio": "./songs/lofi/66.mp3"
+    }
+  ]
+}

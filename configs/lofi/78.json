@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/78.png",
+          "caption": "Abyss Cosmos Tree - Obani",
+          "loop": 270.0277551020408
+        }
+      ],
+      "video": "./vids/lofi/78.mp4",
+      "audio": "./songs/lofi/78.mp3"
+    }
+  ]
+}

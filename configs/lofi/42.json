@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/42.png",
+          "caption": "alina (chihuahua pringles tape out now) - Lexis",
+          "loop": 111.43836734693878
+        }
+      ],
+      "video": "./vids/lofi/42.mp4",
+      "audio": "./songs/lofi/42.mp3"
+    }
+  ]
+}

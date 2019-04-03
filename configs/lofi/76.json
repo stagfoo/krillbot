@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/76.png",
+          "caption": "a bump in tha road - Jozwyn",
+          "loop": 58.04408163265306
+        }
+      ],
+      "video": "./vids/lofi/76.mp4",
+      "audio": "./songs/lofi/76.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/62.png",
+          "caption": "A Step in the Dark - ORRBBBB",
+          "loop": 88.71183673469388
+        }
+      ],
+      "video": "./vids/lofi/62.mp4",
+      "audio": "./songs/lofi/62.mp3"
+    }
+  ]
+}

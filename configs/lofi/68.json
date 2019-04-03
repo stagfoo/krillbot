@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/68.png",
+          "caption": "Aunque Llueva - Deoxys Beats",
+          "loop": 51.17387755102041
+        }
+      ],
+      "video": "./vids/lofi/68.mp4",
+      "audio": "./songs/lofi/68.mp3"
+    }
+  ]
+}

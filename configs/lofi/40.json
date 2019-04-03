@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/40.png",
+          "caption": "alert - Barradeen",
+          "loop": 110.60244897959184
+        }
+      ],
+      "video": "./vids/lofi/40.mp4",
+      "audio": "./songs/lofi/40.mp3"
+    }
+  ]
+}

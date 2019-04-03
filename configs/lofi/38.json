@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/38.png",
+          "caption": "again - MARTIN $KY",
+          "loop": 139.07591836734693
+        }
+      ],
+      "video": "./vids/lofi/38.mp4",
+      "audio": "./songs/lofi/38.mp3"
+    }
+  ]
+}

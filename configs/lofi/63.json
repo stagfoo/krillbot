@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/63.png",
+          "caption": "As The Day Passes By - Props",
+          "loop": 194.76897959183674
+        }
+      ],
+      "video": "./vids/lofi/63.mp4",
+      "audio": "./songs/lofi/63.mp3"
+    }
+  ]
+}

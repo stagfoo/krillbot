@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/64.png",
+          "caption": "Astro Gilbert - Spaze Windu",
+          "loop": 109.37469387755102
+        }
+      ],
+      "video": "./vids/lofi/64.mp4",
+      "audio": "./songs/lofi/64.mp3"
+    }
+  ]
+}

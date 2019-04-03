@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/74.png",
+          "caption": "azul - Nasanieru",
+          "loop": 232.82938775510203
+        }
+      ],
+      "video": "./vids/lofi/74.mp4",
+      "audio": "./songs/lofi/74.mp3"
+    }
+  ]
+}

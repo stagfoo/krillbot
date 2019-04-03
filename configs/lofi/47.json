@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/47.png",
+          "caption": "All these little things- (disquiet0022-sonicdecay) - Knopfdreher",
+          "loop": 255.79102040816326
+        }
+      ],
+      "video": "./vids/lofi/47.mp4",
+      "audio": "./songs/lofi/47.mp3"
+    }
+  ]
+}

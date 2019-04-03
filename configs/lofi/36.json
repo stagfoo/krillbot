@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/36.png",
+          "caption": "Aesthetic - Bank$ the producer",
+          "loop": 206.81142857142856
+        }
+      ],
+      "video": "./vids/lofi/36.mp4",
+      "audio": "./songs/lofi/36.mp3"
+    }
+  ]
+}

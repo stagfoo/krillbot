@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/65.png",
+          "caption": "A T A R I - Chillknot",
+          "loop": 170.5795918367347
+        }
+      ],
+      "video": "./vids/lofi/65.mp4",
+      "audio": "./songs/lofi/65.mp3"
+    }
+  ]
+}

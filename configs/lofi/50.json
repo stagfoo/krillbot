@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/50.png",
+          "caption": "Alone - Giovanni Rodriguez",
+          "loop": 72.80326530612246
+        }
+      ],
+      "video": "./vids/lofi/50.mp4",
+      "audio": "./songs/lofi/50.mp3"
+    }
+  ]
+}

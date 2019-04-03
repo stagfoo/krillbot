@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/46.png",
+          "caption": "All The Hoes - motherboaard",
+          "loop": 177.2669387755102
+        }
+      ],
+      "video": "./vids/lofi/46.mp4",
+      "audio": "./songs/lofi/46.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/52.png",
+          "caption": "Ambient Melancholic Lo-Fi Beat | Royalty Free - Freesol",
+          "loop": 124.55183673469388
+        }
+      ],
+      "video": "./vids/lofi/52.mp4",
+      "audio": "./songs/lofi/52.mp3"
+    }
+  ]
+}

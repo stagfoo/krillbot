@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/55.png",
+          "caption": "Apoteosi - c h r i s g a l a c t i c",
+          "loop": 200.09795918367348
+        }
+      ],
+      "video": "./vids/lofi/55.mp4",
+      "audio": "./songs/lofi/55.mp3"
+    }
+  ]
+}

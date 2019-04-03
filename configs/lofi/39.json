@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/39.png",
+          "caption": "A k a s h a - c e l e s t i a l _ c e r e b r u m",
+          "loop": 115.25224489795919
+        }
+      ],
+      "video": "./vids/lofi/39.mp4",
+      "audio": "./songs/lofi/39.mp3"
+    }
+  ]
+}

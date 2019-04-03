@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/44.png",
+          "caption": "All Over Again - Giovanni Rodriguez",
+          "loop": 86.25632653061224
+        }
+      ],
+      "video": "./vids/lofi/44.mp4",
+      "audio": "./songs/lofi/44.mp3"
+    }
+  ]
+}

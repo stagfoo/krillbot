@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/56.png",
+          "caption": "april showers - aqualina",
+          "loop": 126.58938775510204
+        }
+      ],
+      "video": "./vids/lofi/56.mp4",
+      "audio": "./songs/lofi/56.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/34.png",
+          "caption": "Across The Pacific - jeromydarling",
+          "loop": 3280.065306122449
+        }
+      ],
+      "video": "./vids/lofi/34.mp4",
+      "audio": "./songs/lofi/34.mp3"
+    }
+  ]
+}

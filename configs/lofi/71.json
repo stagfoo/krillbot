@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/71.png",
+          "caption": "a wink from a bionic eye. - jalen edington",
+          "loop": 77.40081632653062
+        }
+      ],
+      "video": "./vids/lofi/71.mp4",
+      "audio": "./songs/lofi/71.mp3"
+    }
+  ]
+}

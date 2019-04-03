@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/45.png",
+          "caption": "All That Jazz - D r i p s    Z a c h e e r",
+          "loop": 129.0448979591837
+        }
+      ],
+      "video": "./vids/lofi/45.mp4",
+      "audio": "./songs/lofi/45.mp3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "images": [
+        {
+          "path": "./slides/lofi/73.png",
+          "caption": " waterfall - Awlnight x KAIJU",
+          "loop": 99.504
+        }
+      ],
+      "video": "./vids/lofi/73.mp4",
+      "audio": "./songs/lofi/73.mp3"
+    }
+  ]
+}
