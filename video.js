@@ -12,7 +12,7 @@ if(process.argv[2].length === 0){
 }
 const session = require(process.argv[2]);
 
-
+session.config[0].images['caption'] = '';
 const videoConfig = {
   images: session.config[0].images,
   audio:  session.config[0].audio,
