@@ -23,7 +23,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "id3-reader": "0.0.2",
     "lien": "^3.3.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "lodash.sample": "^4.2.1",
     "lowdb": "^1.0.0",
     "mp3-concat": "^0.1.2",
