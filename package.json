@@ -32,7 +32,7 @@
     "opn": "^6.0.0",
     "pretty-bytes": "^5.1.0",
     "r-json": "^1.2.9",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "utils": "^0.3.1",
     "videoshow": "^0.1.11",
     "youtube-api": "^2.0.10"
